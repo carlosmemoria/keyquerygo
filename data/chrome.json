@@ -1,0 +1,197 @@
+{
+  "name": "Chrome",
+  "entries": [
+    {
+      "key": "g",
+      "modifiers": ["Ctrl"],
+      "action": "Próxima correspondência"
+    },
+    {
+      "key": "o",
+      "modifiers": ["Ctrl"],
+      "action": "Abrir arquivo"
+    },
+    {
+      "key": "f",
+      "modifiers": ["Ctrl"],
+      "action": "Localizar"
+    },
+    {
+      "key": "l",
+      "modifiers": ["Ctrl"],
+      "action": "Barra de endereço"
+    },
+    {
+      "key": "t",
+      "modifiers": ["Ctrl"],
+      "action": "Nova aba"
+    },
+    {
+      "key": "n",
+      "modifiers": ["Ctrl"],
+      "action": "Nova janela"
+    },
+    {
+      "key": "w",
+      "modifiers": ["Ctrl"],
+      "action": "Fechar aba"
+    },
+    {
+      "key": "r",
+      "modifiers": ["Ctrl"],
+      "action": "Recarregar"
+    },
+    {
+      "key": "p",
+      "modifiers": ["Ctrl"],
+      "action": "Imprimir"
+    },
+    {
+      "key": "s",
+      "modifiers": ["Ctrl"],
+      "action": "Salvar"
+    },
+    {
+      "key": "h",
+      "modifiers": ["Ctrl"],
+      "action": "Histórico"
+    },
+    {
+      "key": "j",
+      "modifiers": ["Ctrl"],
+      "action": "Downloads"
+    },
+    {
+      "key": "d",
+      "modifiers": ["Ctrl"],
+      "action": "Favoritar"
+    },
+    {
+      "key": "u",
+      "modifiers": ["Ctrl"],
+      "action": "Código-fonte"
+    },
+    {
+      "key": "a",
+      "modifiers": ["Ctrl"],
+      "action": "Selecionar tudo"
+    },
+    {
+      "key": "c",
+      "modifiers": ["Ctrl"],
+      "action": "Copiar"
+    },
+    {
+      "key": "v",
+      "modifiers": ["Ctrl"],
+      "action": "Colar"
+    },
+    {
+      "key": "x",
+      "modifiers": ["Ctrl"],
+      "action": "Recortar"
+    },
+    {
+      "key": "z",
+      "modifiers": ["Ctrl"],
+      "action": "Desfazer"
+    },
+    {
+      "key": "g",
+      "modifiers": ["Ctrl", "Shift"],
+      "action": "Correspondência anterior"
+    },
+    {
+      "key": "o",
+      "modifiers": ["Ctrl", "Shift"],
+      "action": "Gerenciador de favoritos"
+    },
+    {
+      "key": "t",
+      "modifiers": ["Ctrl", "Shift"],
+      "action": "Restaurar aba"
+    },
+    {
+      "key": "n",
+      "modifiers": ["Ctrl", "Shift"],
+      "action": "Janela anônima"
+    },
+    {
+      "key": "w",
+      "modifiers": ["Ctrl", "Shift"],
+      "action": "Fechar janela"
+    },
+    {
+      "key": "j",
+      "modifiers": ["Ctrl", "Shift"],
+      "action": "Console"
+    },
+    {
+      "key": "i",
+      "modifiers": ["Ctrl", "Shift"],
+      "action": "Ferramentas do desenvolvedor"
+    },
+    {
+      "key": "b",
+      "modifiers": ["Ctrl", "Shift"],
+      "action": "Barra de favoritos"
+    },
+    {
+      "key": "d",
+      "modifiers": ["Ctrl", "Shift"],
+      "action": "Favoritar todas as abas"
+    },
+    {
+      "key": "m",
+      "modifiers": ["Ctrl", "Shift"],
+      "action": "Menu de perfil"
+    },
+    {
+      "key": "1",
+      "modifiers": ["Ctrl"],
+      "action": "Selecionar aba"
+    },
+    {
+      "key": "2",
+      "modifiers": ["Ctrl"],
+      "action": "Selecionar aba"
+    },
+    {
+      "key": "3",
+      "modifiers": ["Ctrl"],
+      "action": "Selecionar aba"
+    },
+    {
+      "key": "4",
+      "modifiers": ["Ctrl"],
+      "action": "Selecionar aba"
+    },
+    {
+      "key": "5",
+      "modifiers": ["Ctrl"],
+      "action": "Selecionar aba"
+    },
+    {
+      "key": "6",
+      "modifiers": ["Ctrl"],
+      "action": "Selecionar aba"
+    },
+    {
+      "key": "7",
+      "modifiers": ["Ctrl"],
+      "action": "Selecionar aba"
+    },
+    {
+      "key": "8",
+      "modifiers": ["Ctrl"],
+      "action": "Selecionar aba"
+    },
+    {
+      "key": "9",
+      "modifiers": ["Ctrl"],
+      "action": "Selecionar aba"
+    }
+  ],
+  "source": "https://support.google.com/chrome/answer/157179?hl=en",
+  "coverage": "Common defaults; not exhaustive."
+}

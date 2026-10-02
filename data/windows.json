@@ -1,0 +1,47 @@
+{
+  "name": "Windows",
+  "entries": [
+    {
+      "key": "e",
+      "action": "Explorador de arquivos",
+      "modifiers": ["Meta"]
+    },
+    {
+      "key": "r",
+      "action": "Executar",
+      "modifiers": ["Meta"]
+    },
+    {
+      "key": "l",
+      "action": "Bloquear computador",
+      "modifiers": ["Meta"]
+    },
+    {
+      "key": "d",
+      "action": "Área de trabalho",
+      "modifiers": ["Meta"]
+    },
+    {
+      "key": "i",
+      "action": "Configurações",
+      "modifiers": ["Meta"]
+    },
+    {
+      "key": "s",
+      "action": "Pesquisar",
+      "modifiers": ["Meta"]
+    },
+    {
+      "key": "x",
+      "action": "Menu de acesso rápido",
+      "modifiers": ["Meta"]
+    },
+    {
+      "key": "a",
+      "action": "Configurações rápidas",
+      "modifiers": ["Meta"]
+    }
+  ],
+  "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+  "coverage": "Common defaults; not exhaustive."
+}

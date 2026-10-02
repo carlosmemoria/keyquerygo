@@ -1,0 +1,22 @@
+{
+  "name": "Linux · GNOME",
+  "entries": [
+    {
+      "key": "l",
+      "action": "Bloquear tela",
+      "modifiers": ["Meta"]
+    },
+    {
+      "key": "a",
+      "action": "Lista de aplicativos",
+      "modifiers": ["Meta"]
+    },
+    {
+      "key": "m",
+      "action": "Notificações",
+      "modifiers": ["Meta"]
+    }
+  ],
+  "source": "https://help.gnome.org/gnome-help/shell-keyboard-shortcuts.html",
+  "coverage": "Common defaults; not exhaustive."
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>KeyQueryGo · Configurações</title>
+    <link rel="stylesheet" href="ui.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="brand">K<span>Q</span>G</div>
+        <div><b>KeyQueryGo</b><small>KEYBOARD SEARCH, YOUR WAY</small></div>
+        <span class="badge">LOCAL · SEM TELEMETRIA</span>
+      </header>
+      <section class="intro">
+        <p class="eyebrow">MENOS CLIQUES. MAIS CAMINHOS.</p>
+        <h1>Digite o caminho.<br /><span>Encontre o mundo.</span></h1>
+        <p>
+          Transforme letras e combinações em pesquisas nos seus sites favoritos.
+        </p>
+      </section>
+      <div class="layout">
+        <section class="panel">
+          <div class="heading">
+            <h2>Seus destinos</h2>
+            <button id="new">+ Novo</button>
+          </div>
+          <div id="rules"></div>
+          <hr />
+          <label
+            >Base do sistema<select id="platform">
+              <option value="none">Somente Chrome</option>
+              <option value="windows">Windows</option>
+              <option value="gnome">Linux · GNOME</option>
+            </select></label
+          >
+          <p class="muted">
+            Bases documentadas de atalhos comuns. Configurações pessoais e
+            outros ambientes Linux não são detectados.
+          </p>
+          <div class="row">
+            <button id="export" class="secondary">Exportar JSON</button
+            ><button id="import" class="secondary">Importar JSON</button
+            ><input id="file" type="file" accept=".json" hidden />
+          </div>
+        </section>
+        <section class="panel">
+          <p class="eyebrow">CONSTRUA SEU GATILHO</p>
+          <h2 id="editor-title">Novo destino</h2>
+          <form id="editor">
+            <label
+              >Nome do destino<input
+                id="name"
+                required
+                maxlength="60"
+                placeholder="Google, Alibaba, GitHub…"
+            /></label>
+            <label
+              >URL da pesquisa<input
+                id="url"
+                required
+                placeholder="https://www.google.com/search?q={query}"
+            /></label>
+            <p class="muted">
+              Use <code>{query}</code> no lugar do termo de pesquisa.
+            </p>
+            <div class="row">
+              <button type="button" id="capture" class="secondary">
+                ● Capturar no teclado</button
+              ><button type="button" id="clear" class="secondary">
+                Limpar
+              </button>
+            </div>
+            <label
+              >Sequência de letras ou números<input
+                id="trigger"
+                required
+                maxlength="12"
+                pattern="[a-zA-Z0-9]{1,12}"
+                placeholder="go"
+            /></label>
+            <div id="keyboard" aria-label="Teclado visual"></div>
+            <label class="check"
+              ><input id="case" type="checkbox" /> Diferenciar maiúsculas e
+              minúsculas</label
+            ><label class="check"
+              ><input id="enabled" type="checkbox" checked /> Destino
+              ativo</label
+            >
+            <div id="feedback" role="status" aria-live="polite"></div>
+            <div class="row">
+              <button type="submit">Salvar destino</button
+              ><button id="test" type="button" class="secondary">
+                Testar URL
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+      <footer>
+        Desenvolvido por
+        <a href="https://memoria.pro" target="_blank" rel="noreferrer"
+          >Carlos Memória</a
+        >
+        · v0.1.0<br />Gatilhos simples funcionam fora dos campos de texto.
+        Segure os modificadores enquanto digita a sequência. Intervalo máximo:
+        900 ms.<br />Não funciona na barra de endereço, páginas internas do
+        navegador ou Chrome Web Store.
+      </footer>
+    </main>
+    <script src="core.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>
